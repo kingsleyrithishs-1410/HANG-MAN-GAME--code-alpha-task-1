@@ -1,5 +1,5 @@
 import random
-words = ["king", "queen", "ruke", "bishop", "knight", "pawn"]
+words = ["king", "queen", "rook", "bishop", "knight", "pawn"]
 word = random.choice(words)
 guessed_word = ["_"] * len(word)
 chances = 6
